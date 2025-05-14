@@ -1,0 +1,117 @@
+html body{
+    background-color: whitesmoke ;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+    #customBtn {
+      display: inline-block;
+      background: white;
+      color: #444;
+      width: 190px;
+      border-radius: 5px;
+      border: thin solid #888;
+      box-shadow: 1px 1px 1px grey;
+      white-space: nowrap;
+    }
+    #customBtn:hover {
+      cursor: pointer;
+    }
+    span.label {
+      font-family: serif;
+      font-weight: normal;
+    }
+    span.icon {
+      background: url('/identity/sign-in/g-normal.png') transparent 5px 50% no-repeat;
+      display: inline-block;
+      vertical-align: middle;
+      width: 42px;
+      height: 42px;
+    }
+    span.buttonText {
+      display: inline-block;
+      vertical-align: middle;
+      padding-left: 42px;
+      padding-right: 42px;
+      font-size: 14px;
+      font-weight: bold;
+      /* Use the Roboto font that is loaded in the <head> */
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .cadastro-box {
+  width: 350px; 
+  height: 200px; 
+  padding: 20px; 
+  margin: 50px auto; 
+  text-align: center; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-around; 
+}
+
+
+.cadastro-box  h1 {
+  margin-bottom: 10px; 
+}
+
+
+.cadastro-box  input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  justify-content: baseline;
+  
+}
+
+.cadastro-box  button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ .login-box {
+ text-align: justify, center;
+  width: 350px; 
+  height: 200px; 
+  padding: 20px; 
+  margin: 50px auto; 
+  text-align: center; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-around; 
+
+}
+
+.login-box  h1 {
+  margin-bottom: 10px; 
+}
+
+
+.login-box  input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  
+}
+
+.login-box  button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+link{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-items: center;
+    
+}
+  
